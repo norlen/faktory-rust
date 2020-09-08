@@ -1,4 +1,4 @@
-use faktory::{Producer, Consumer, Job};
+use faktory_async::{Producer, Consumer, Job};
 use thiserror::Error;
 
 #[derive(Clone)]

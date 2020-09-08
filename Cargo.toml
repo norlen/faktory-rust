@@ -1,5 +1,5 @@
 [package]
-name = "faktory"
+name = "faktory_async"
 version = "0.1.0"
 authors = ["norlen"]
 edition = "2018"
