@@ -8,7 +8,7 @@ should not really be used.
 Push jobs using a `Producer` and then using a `Consumer` spawn a task that continually fetches jobs from the server
 
 ```rust
-use faktory::{Producer, Consumer, Job};
+use faktory_async::{Producer, Consumer, Job};
 use thiserror::Error;
 
 #[derive(Clone)]
