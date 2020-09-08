@@ -12,7 +12,7 @@ pub use consumer::Consumer;
 pub use producer::Producer;
 pub use protocol::Job;
 
-/// 
+/// Errors returned by `Producer` and `Consumer`.
 #[derive(Debug, Error)]
 pub enum Error {
     /// If no address is supplied, so the client cannot connect to the server.
